@@ -1,27 +1,35 @@
 {
-  "name": "vue-d3-sparkline",
-  "version": "0.1.3",
+  "name": "vue-d3-rotating-piechart",
+  "version": "0.1.0",
   "private": false,
-  "main": "dist/vue-d3-sparkline.common",
+  "main": "dist/vue-d3-rotating-piechart.common",
+  "homepage": "https://github.com/nickolas1/vue-d3-rotating-piechart",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nickolas1/vue-d3-rotating-piechart"
+  },
   "files": [
     "dist/",
     "src/components/",
-    "src/util/"
+    "src/util/",
+    "src/stories/"
   ],
   "scripts": {
     "serve": "vue-cli-service serve --open",
-    "build": "vue-cli-service build --target lib src/components/SparkLine.vue",
+    "build": "vue-cli-service build --target lib src/components/RotatingPieChart.vue",
     "test": "vue-cli-service test",
-    "lint": "vue-cli-service lint"
+    "lint": "vue-cli-service lint",
+    "storybook": "start-storybook -p 9001 -c .storybook"
   },
   "dependencies": {
-    "d3-array": "^1.2.1",
     "d3-scale": "^2.0.0",
     "d3-shape": "^1.2.0",
-    "lodash.debounce": "^4.0.8",
     "vue": "^2.5.13"
   },
   "devDependencies": {
+    "@storybook/addon-knobs": "^3.4.1",
+    "@storybook/addon-notes": "^3.4.1",
+    "@storybook/vue": "^3.4.1",
     "@vue/cli-plugin-babel": "^3.0.0-beta.6",
     "@vue/cli-plugin-eslint": "^3.0.0-beta.6",
     "@vue/cli-plugin-unit-jest": "^3.0.0-beta.6",
