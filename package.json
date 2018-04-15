@@ -6,7 +6,7 @@
   "homepage": "https://github.com/nickolas1/vue-d3-rotating-piechart",
   "repository": {
     "type": "git",
-    "url": "https://github.com/nickolas1/vue-d3-rotating-piechart"
+    "url": "https://github.com/nickolas1/vue-d3-rotating-piechart.git"
   },
   "files": [
     "dist/",
@@ -19,7 +19,8 @@
     "build": "vue-cli-service build --target lib src/components/RotatingPieChart.vue",
     "test": "vue-cli-service test",
     "lint": "vue-cli-service lint",
-    "storybook": "start-storybook -p 9001 -c .storybook"
+    "storybook": "start-storybook -p 9001 -c .storybook",
+    "buildstorybook": "build-storybook -c .storybook -o docs"
   },
   "dependencies": {
     "d3-scale": "^2.0.0",
