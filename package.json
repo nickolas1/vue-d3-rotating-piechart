@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "private": false,
   "main": "dist/vue-d3-rotating-piechart.common",
-  "homepage": "https://github.com/nickolas1/vue-d3-rotating-piechart",
+  "homepage": "https://nickolas1.github.io/vue-d3-rotating-piechart/",
   "repository": {
     "type": "git",
     "url": "https://github.com/nickolas1/vue-d3-rotating-piechart.git"
