@@ -2,6 +2,8 @@
 
 A D3 pie chart component for vue. Enhanced user experience via rotation and tumbling.
 
+[Demo](https://nickolas1.github.io/vue-d3-rotating-piechart/)
+
 ## Installation
 ```sh
 npm i vue-d3-rotating-piechart
