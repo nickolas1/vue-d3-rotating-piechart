@@ -1,8 +1,9 @@
 {
   "name": "vue-d3-rotating-piechart",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "private": false,
   "main": "dist/vue-d3-rotating-piechart.common",
+  "browser": "dist/vue-d3-rotating-piechart.umd",
   "homepage": "https://nickolas1.github.io/vue-d3-rotating-piechart/",
   "repository": {
     "type": "git",
